@@ -1,0 +1,19 @@
+on:
+  schedule:
+    - cron:  '45 * * * *'
+
+jobs:
+  update_status:
+    runs-on: ubuntu-latest
+    env:
+      NODE_ENV: production
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+      - run: npm ci
+      - run: npm start
+      - uses: fregante/setup-git-user@v1
+      - run: |
+          git add .
+          git commit -m "chore: update status"
+          git push origin master
