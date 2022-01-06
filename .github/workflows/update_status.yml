@@ -1,3 +1,4 @@
+name: Update Webb Status
 on:
   schedule:
     - cron:  '45 * * * *'
