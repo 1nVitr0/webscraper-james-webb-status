@@ -2337,9 +2337,106 @@
     "approxSpeedMph": 0
   },
   {
+    "eventId": "139.5",
+    "title": "Mirror Segment Deployment Tracker",
+    "subtitle": "",
+    "nominalEventTime": "Launch + 18-28 days",
+    "status": "<a href='https://blogs.nasa.gov/webb/2022/01/13/mirror-mirroron-its-way/' target='_webbBlog' title='individual mirror segement deployments' >Ongoing </a>",
+    "details": "<p>The adjacent image tracks the progress of the individual primary mirror segments (A,B,C) and the secondary (SM) mirror as they move upward 12.5mm from their stowed launch position  to a deployed state where they are ready for the mirror alignment process. <a href='/content/webbLaunch/assets/images/mirrorMoves/mirrorAlignmentTracker-1-14-22-2-1400px.png' >View a full screen copy.</a></p><p>The mirrors move in very small increments over the course of ~10 days to complete their deployment. They move approximately 1mm per day each.  For more detail on this process read this <a href='https://blogs.nasa.gov/webb/2022/01/13/mirror-mirroron-its-way/' target='_webbBlog' title='individual mirror segement deployments' >blog entry</a>.</p><p>Each primary mirror segment has an ID which consists of a letter (A,B,C) followed by a number.  The letter  denotes one of 3 <a target='_readMore' href='/content/observatory/ote/mirrors/index.html#1c'> different 'prescriptions' for each group of primary mirror segments</a>.</p><p>NOTE: Segment A3 and A6 will be moved separately at the end of the process because their position sensors are read out in a different way.</p><p> Video: <a href='https://youtu.be/hET2MS1tIjA?t=2226' target='_webbYouTube'> Next Steps </a> |  <a href='https://youtu.be/_2zQiWeXTg4' target='_webbYouTube'> Mirror Alignment  </a></p>  <p> Read:<a target='_readMore' href='/content/observatory/ote/mirrors/index.html#1c'>Adjustable mirrors</a> | <a target='_readMore' href='/content/observatory/ote/mirrors/index.html#8'>Alignment</a> | <a target='_readMore' href='/content/about/innovations/wavefront.html'>Technology Spinoffs</a> </p>",
+    "thumbnailUrl": "/content/webbLaunch/assets/images/mirrorMoves/segmentTrackerIcon.png",
+    "stateImageUrl": "/content/webbLaunch/assets/images/mirrorMoves/mirrorAlignmentTracker-1-14-22-2-1000px.png",
+    "moreDetails": "",
+    "relatedImages": [
+      {
+        "name": "imageName1",
+        "url": "/ImagesContent/ariane5Launch-9-29-2017-VA239_2.jpg",
+        "description": "This is the description. Could be minimal html"
+      },
+      {
+        "name": "imageName2",
+        "url": "/images/ariane4.jpg",
+        "description": "This is the description. Could be minimal html"
+      },
+      {
+        "name": "imageName2",
+        "url": "/images/ariane2.jpg",
+        "description": "This is the description. Could be minimal html"
+      },
+      {
+        "name": "imageName4",
+        "url": "/images/l2.2.jpg",
+        "description": "This is the description. Could be minimal html"
+      },
+      {
+        "name": "imageName5",
+        "url": "/images2/sunshieldhotcold.jpg",
+        "description": "This is the description. Could be minimal html"
+      }
+    ],
+    "relatedVideos": [
+      {
+        "name": "ALL ABOUT Webb Telescope",
+        "url": "https://www.youtube.com/embed/YF22Ba-xrk8",
+        "description": "Webb Quick Start:  the basics you need to know about Webb"
+      },
+      {
+        "name": "Full Deployment",
+        "url": "https://www.youtube.com/embed/bTxLAGchWnA?rel=0&amp;enablejsapi=1&amp;html5=1&amp;origin=https://jwst.nasa.gov",
+        "description": "This video goes from launch to a fully deployed Webb Space Telescope."
+      },
+      {
+        "name": "Webb Lifting Off",
+        "url": "/content/webbLaunch/assets/video/RocketOnlyCruising.mp4",
+        "description": "Webb leaves the ESA launch pad in French Guiana for L2."
+      },
+      {
+        "name": "Webb's Orbit",
+        "url": "https://www.youtube.com/embed/6cUe4oMk69E?rel=0&amp;loop=1&amp;playlist=6cUe4oMk69E;enablejsapi=1&amp;html5=1&amp;origin=https://jwst.nasa.gov",
+        "description": "Webb's orbit around the sun at L2. Credit: GSFC"
+      }
+    ],
+    "relatedLinks": [
+      {
+        "name": "Mirror Segment Alignment",
+        "url": "https://www.nasa.gov/feature/goddard/2017/aligning-the-primary-mirror-segments-of-nasa-s-james-webb-space-telescope-with-light",
+        "description": "View a feature about how the mirror segments will be aligned.",
+        "target": ""
+      },
+      {
+        "name": "Webb's Launch",
+        "url": "/content/about/orbit.html",
+        "description": "All about Webb's Orbit",
+        "target": ""
+      },
+      {
+        "name": "Webb's Orbit",
+        "url": "/content/about/launch.html",
+        "description": "All about Webb's Launch",
+        "target": ""
+      },
+      {
+        "name": "Webb Observatory",
+        "url": "/content/observatory/",
+        "description": "Learn about all of the subsystems of the Webb Observatory",
+        "target": ""
+      },
+      {
+        "name": "Ariane Launch Vehicle",
+        "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Ariane",
+        "description": "Learn about the Ariane Launch capability that ESA supplies the Webb Mission.",
+        "target": "_new"
+      }
+    ],
+    "approxStartTimeRelToLaunch": "dd:hh:mm",
+    "approxEndTimeRelToLaunch": "dd:hh:mm",
+    "approxDistanceFromEarthMiles": 0,
+    "approxDuration": 0,
+    "approxSpeedMph": 0
+  },
+  {
     "eventId": "140",
-    "title": "Individual Mirror Segment Movements ",
-    "subtitle": "Completed",
+    "title": "Individual Mirror Segment Movements  COMPLETE",
+    "subtitle": "",
     "nominalEventTime": "Launch + 28 days",
     "status": "Future.",
     "details": "<p>This completes the multi-day multi-step activity to activate and move each of its 18 primary mirror segments (which are adjustable) out of their launch configuration. </p> <p>The primary mirror segments and secondary mirror are moved by six actuators that are attached to the back of each mirror piece. The primary mirror segments also have an additional actuator at its center that adjusts its curvature. The telescope's tertiary mirror remains stationary. </p><p> Read:<a target='_readMore' href='/content/observatory/ote/mirrors/index.html#1c'>About Webb's adjustable mirrors.</a> </p> <p> Read:<a target='_readMore' href='/content/observatory/ote/mirrors/index.html#8'>How 18 mirrors see as one.</a> </p><p> Read:<a target='_readMore' href='/content/about/innovations/wavefront.html'>Mirror Alignment Technology Spinoffs.</a> </p>",
